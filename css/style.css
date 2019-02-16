@@ -19,7 +19,6 @@ body {
 -----------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
-  font-size: x-large;
 }
 
 h3,h5 {
@@ -111,7 +110,7 @@ footer {
 
 #intro .btn-danger,
 #contact .btn-danger {
-    background: #4285f4;
+    background: #1ce9b6;
     border-color: transparent;
 }
 
@@ -159,34 +158,35 @@ footer {
   background: none repeat scroll 0 0 #ffffff;
 }
 
-.sk-rotating-plane {
-  width: 50px;
-  height: 50px;
-  background-color: #222;
-  -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
-          animation: sk-rotatePlane 1.2s infinite ease-in-out; }
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  background-color: #1ce9b6;
 
-@-webkit-keyframes sk-rotatePlane {
-  0% {
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
-  50% {
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
-  100% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
 
-@keyframes sk-rotatePlane {
-  0% {
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
-  50% {
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
   100% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
 
 
 
@@ -217,7 +217,7 @@ footer {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #66ccff;
+    color: #1ce9b6;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -227,7 +227,7 @@ footer {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #66ccff;
+    color: #1ce9b6;
 }
 
 .custom-navbar .navbar-toggle {
@@ -305,7 +305,7 @@ footer {
 }
 
 #detail .fa {
-  color: #4285f4;
+  color: #1ce9b6;
   font-size: 48px;
 }
 
@@ -405,7 +405,7 @@ footer {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #4285f4;
+  color: #1ce9b6;
   cursor: default;
   background-color: transparent;
   border: 1px solid transparent;
@@ -441,7 +441,7 @@ footer {
 }
 
 #register input[type="submit"] {
-  background: #4285f4;
+  background: #1ce9b6;
   border-radius: 100px;
   border: none;
   color: #ffffff;
@@ -599,7 +599,7 @@ footer {
 }
 
 #contact input[type="submit"]:hover {
-  background: #4285f4;
+  background: #1ce9b6;
 }
 
 
@@ -631,7 +631,7 @@ footer {
 }
 
 .go-top:hover {
-    background: #4285f4;
+    background: #1ce9b6;
     color: #ffffff;
 }
 
@@ -664,7 +664,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #4285f4;
+    background: #1ce9b6;
     color: #ffffff;
 }
 
