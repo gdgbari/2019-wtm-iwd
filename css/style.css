@@ -535,7 +535,9 @@ footer {
     padding-bottom: 7rem;
 }
 
-#venue p {
+
+#venue .h1, .h2, .h3, .h4, .p {
+  color: white;
   padding-top: 12px;
   padding-bottom: 18px;
 }
