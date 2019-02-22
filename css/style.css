@@ -93,6 +93,7 @@ footer {
 }
 
 #intro .btn,
+#register .btn,
 #contact .btn {
     background: transparent;
     border: 2px solid #ffffff;
@@ -305,7 +306,7 @@ footer {
 }
 
 #detail .fa {
-  color: #1ce9b6;
+  color: #00bfa5;
   font-size: 48px;
 }
 
