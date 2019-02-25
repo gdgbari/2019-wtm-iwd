@@ -92,8 +92,21 @@ footer {
     padding-bottom: 12px;
 }
 
-#intro .btn,
-#register .btn,
+#intro .btn {
+  background: transparent;
+  border: 2px solid #222222;
+  border-radius: 0px;
+  color: #222222;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 14px 42px;
+  margin-top: 42px;
+  margin-right: 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
 #contact .btn {
     background: transparent;
     border: 2px solid #ffffff;
@@ -264,11 +277,11 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/intro-bg2.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    color: #ffffff;
+    color: #222222;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -535,9 +548,7 @@ footer {
     padding-bottom: 7rem;
 }
 
-
-#venue .h1, .h2, .h3, .h4, .p {
-  color: white;
+#venue p {
   padding-top: 12px;
   padding-bottom: 18px;
 }
