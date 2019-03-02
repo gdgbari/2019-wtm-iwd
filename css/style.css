@@ -94,9 +94,25 @@ footer {
 
 #intro .btn {
   background: transparent;
-  border: 2px solid #222222;
+  border: 2px solid #ffffff;
   border-radius: 0px;
-  color: #222222;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 14px 42px;
+  margin-top: 42px;
+  margin-right: 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+
+#register .btn {
+  background: transparent;
+  border-radius: 0px;
+  background-color: #00bfa5;
+  color: #ffffff;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 12px;
@@ -277,11 +293,11 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg2.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    color: #222222;
+    color: #ffffff;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
